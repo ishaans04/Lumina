@@ -10,11 +10,15 @@ Lumina is designed for writers, students, and knowledge workers who want a light
 
 The app prioritizes local-first storage and a simple desktop workflow. Notes, settings, page metadata, and session state are persisted in JSON on the user's machine.
 
-## Problem Statement
+## Why Lumina?
 
-Many writing workflows are split across separate tools: a notepad for drafting, a browser for AI assistance, and another utility for extracting PDF content. This creates context switching and makes it harder to keep notes, source material, and AI output together.
+Most writers switch between:
 
-Lumina addresses this by bringing core writing, note management, PDF text extraction, and AI writing assistance into one desktop interface.
+- A note-taking app
+- An AI chatbot
+- A PDF reader
+
+Lumina combines these workflows into a single desktop workspace.
 
 ## Key Features
 
@@ -100,7 +104,7 @@ AINotepad/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/ishaans04/Lumina
 cd AINotepad
 ```
 
@@ -161,9 +165,9 @@ The key is stored locally in the app's JSON data file.
 Lumina can also read provider-specific API keys from environment variables:
 
 ```bash
-OPENAI_API_KEY=your_openai_key
-ANTHROPIC_API_KEY=your_anthropic_key
-NVIDIA_API_KEY=your_nvidia_key
+OPENAI_API_KEY=<your_openai_key>
+ANTHROPIC_API_KEY=<your_anthropic_key>
+NVIDIA_API_KEY=<your_nvidia_key>
 ```
 
 On Windows PowerShell:
